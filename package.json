@@ -5,7 +5,8 @@
   "scripts": {
     "tsc": "node_modules/.bin/tsc",
     "coverage": "jest --coverage",
-    "test": "jest"
+    "test": "jest && yarn converage",
+    "build": "yarn tsc"
   },
   "devDependencies": {
     "@types/jest": "^24.0.11",
