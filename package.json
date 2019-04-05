@@ -1,0 +1,23 @@
+{
+  "name": "linked_list",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "node_modules/.bin/tsc",
+    "coverage": "jest --coverage",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.11.6",
+    "@types/node-memwatch": "^1.0.0",
+    "debug": "^4.1.1",
+    "jest": "^24.5.0",
+    "node-memwatch": "^1.0.1",
+    "ts-jest": "^24.0.0",
+    "tslint": "^5.14.0",
+    "typescript": "^3.3.4000"
+  },
+  "dependencies": {},
+  "license": "MIT"
+}
