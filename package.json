@@ -4,14 +4,14 @@
   "main": "index.js",
   "scripts": {
     "tsc": "node_modules/.bin/tsc",
-    "coverage": "jest --coverage",
-    "test": "jest && yarn coverage",
+    "test": "jest",
     "build": "yarn tsc"
   },
   "devDependencies": {
     "@types/jest": "^24.0.11",
     "@types/node": "^11.11.6",
     "@types/node-memwatch": "^1.0.0",
+    "coveralls": "^3.0.3",
     "debug": "^4.1.1",
     "jest": "^24.5.0",
     "node-memwatch": "^1.0.1",
