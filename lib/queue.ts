@@ -1,6 +1,6 @@
 /**
  * @author Alessandro Frenna <alessandrofrenna95@gmail.com>
- * @description Queue data structure implemented by an array
+ * @description Queue data structure implemented by a linked list
  */
 import { Node } from "types/node";
 
