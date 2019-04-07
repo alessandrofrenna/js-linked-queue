@@ -6,6 +6,7 @@ node_js:
 branches:
   only:
   - master
+  - version-0.1.1
 
 install:
   - yarn install
