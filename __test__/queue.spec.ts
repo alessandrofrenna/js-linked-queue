@@ -40,11 +40,11 @@ test("Enqueuing an empty item must throw a 'missing item' error", () => {
 
 test("The queue head value should be a number", () => {
   queue.enqueue(10);
-  expect(typeof queue.head.value).toBe("number");
+  expect(typeof queue.first()).toBe("number");
 });
 
-test("The queue first() method should return the head of the queue", () => {
-  expect(queue.first()).toEqual(queue.head);
+test("The queue first() method should return the head value of the queue", () => {
+  expect(queue.first()).toEqual(10);
 });
 
 test("Dequeuing from the queue should result in empty queue", () => {

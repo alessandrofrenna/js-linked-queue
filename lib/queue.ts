@@ -58,11 +58,11 @@ export class Queue<T> {
     return deleted;
   }
 
-  public first(): Node<T> {
+  public first(): T {
     if (this.isEmpty()) {
       throw new Error("Queue is Empty");
     }
-    return this.head;
+    return this.head.value;
   }
 
   public isEmpty(): boolean {

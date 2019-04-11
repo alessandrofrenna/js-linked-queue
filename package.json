@@ -1,6 +1,6 @@
 {
   "name": "js-linked-queue",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "description": "A javascript implementation of the queue data structure with a doubly linked list",
   "keywords": ["js", "queue", "linked", "list", "data structures"],
   "main": "./dist/index.js",
