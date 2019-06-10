@@ -316,11 +316,6 @@
   dependencies:
     "@babel/types" "^7.3.0"
 
-"@types/events@*":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@types/events/-/events-3.0.0.tgz#2862f3f58a9a7f7c3e78d79f130dd4d71c25c2a7"
-  integrity sha512-EaObqwIvayI5a8dCzhFrjKzVwKLxjoG9T6Ppd5CEo07LRKfQ8Yokw54r5+Wq7FaBQ+yXRvQAYPrHwya1/UFt9g==
-
 "@types/istanbul-lib-coverage@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@types/istanbul-lib-coverage/-/istanbul-lib-coverage-2.0.0.tgz#1eb8c033e98cf4e1a4cedcaf8bcafe8cb7591e85"
@@ -339,11 +334,9 @@
     "@types/jest-diff" "*"
 
 "@types/node-memwatch@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@types/node-memwatch/-/node-memwatch-1.0.0.tgz#2e94ef4536f0c5a1baf363b3bbb52d7fb9f68b3b"
-  integrity sha512-dWk0qP42IjvDT8fN/mCYVxbsNOMleqpHDjmCOimSeoRQshRodWdaGb26lmgyXpvGcUDrI4LsvVMroc7Go8RDTQ==
-  dependencies:
-    "@types/events" "*"
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@types/node-memwatch/-/node-memwatch-1.0.1.tgz#4930c23c48a7031f2b2ea9077f48a012d79080a0"
+  integrity sha512-f7xdaQI0vKFeLzhAqT2hP4j8EEVysIAaPE6TvzlF1WxjwlR7zToVEfcsNrXi/aHeZyVv7/OPOW3P8cKTdyHVtQ==
 
 "@types/node@^11.11.6":
   version "11.13.6"
